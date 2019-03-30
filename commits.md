@@ -18,6 +18,8 @@ Tipos se resumem em feat, fix, refactor, style, chore, doc e test
 
 **test** => Modificações e adições aos testes
 
+**chore** => atualização de sripts de build, alteração em pacotes, sem mudança no código de produção.
+
 > **Escopos**
 
 Podem ser quaisquer partes do projeto; é importante que eles sejam compreendidos de uma maneira quase automática para alguém que não conhece o projeto. Em geral, a utilização de um escopo é bem generica, especificando apenas o primeiro contexto (login, middleware, profile). No entanto, prefiro ser mais especifico e definir um segundo escopo (containers/login, por exemplo).
@@ -33,3 +35,7 @@ Devem ser suficientemente claras, utilizando seu espaço até o máximo permitid
 > **Corpo**
 
 Vai conter descrições mais precisas do que está contido naquele commit, mostrando as razões ou consequências geradas por esse código, assim como instruções futuras.
+
+> **Exemplo**
+
+[financial] feat(account): add account payment
