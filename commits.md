@@ -1,16 +1,20 @@
+> **Projeto**
+
+[NomeProjeto] => Especificar o projeto que está se trabalhando no repositório, caso seja um repositório contendo mais de um projeto.
+
 > **Tipo**
 
 Tipos se resumem em feat, fix, refactor, style, chore, doc e test
 
-**feat** => são quaisquer adições ao código, Enquanto elas podem alterar parte do código já existente, o foco dela é a implementação de features novas ao ecossistema
+**feat** => São quaisquer adições ao código, Enquanto elas podem alterar parte do código já existente, o foco dela é a implementação de features novas ao ecossistema
 
-**fix** => refere-se ás correções de bugs. Caso seu time trabalhe com issues ou com Jira, é possível com smart commits associar seu commit a uma issue e alterar seu estado com keywords como resolve, fix, solves. Em geral, essas marcações devem vir na descrição ou no footer.
+**fix** => Refere-se ás correções de bugs. Caso seu time trabalhe com issues ou com Jira, é possível com smart commits associar seu commit a uma issue e alterar seu estado com keywords como resolve, fix, solves. Em geral, essas marcações devem vir na descrição ou no footer.
 
-**refactor** => refere-se a quaisquer mudanças que atinjam o código, porém não alterem a sua funcionalidade . Alterou o formato de como é o processamento em determinada parte da sua tela, mas manteve a mesma funcionalidade? Declare como refactor
+**refactor** => Refere-se a quaisquer mudanças que atinjam o código, porém não alterem a sua funcionalidade . Alterou o formato de como é o processamento em determinada parte da sua tela, mas manteve a mesma funcionalidade? Declare como refactor
 
 **style** => Alterações referentes a formatações de código, semicolons, trailing spaces e lint em geral.
 
-**project** => todo o escopo de versões e pacotes ficam inseridos nele
+**project** => Todo o escopo de versões e pacotes ficam inseridos nele
 
 **env** => Atualizações de arquivos de CI, docker, build files, task runners ou configurações.
 
@@ -18,7 +22,7 @@ Tipos se resumem em feat, fix, refactor, style, chore, doc e test
 
 **test** => Modificações e adições aos testes
 
-**chore** => atualização de sripts de build, alteração em pacotes, sem mudança no código de produção.
+**chore** => Atualização de sripts de build, alteração em pacotes, sem mudança no código de produção.
 
 > **Escopos**
 
