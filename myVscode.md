@@ -30,12 +30,12 @@
 
 ```
 
-editor.fontLigatures: Habilitando ou não para que determinados caracteres se transformem em simbolos
-javascript.updateImportsOnFileMove.enabled: Permitindo ou não que 'imports' sejam atualizados conforme arquivos são trocados de diretorios
-files.insertFinalNewLine: Insere ou não uma linha no final de cada arquivo
-editor.rules: pode passar um array com valores para poder criar linhas verticais no editor
-editor.renderLineHighLight: "gutter": identifica com uma sombra qual linha você está trabalhando no código no momento
-breadcrumbs.enabled: mostra ou não na parte superior toda a estrutura de pastas relacionada aquele arquivo que está aberto no momento
+- editor.fontLigatures: Habilitando ou não para que determinados caracteres se transformem em simbolos
+- javascript.updateImportsOnFileMove.enabled: Permitindo ou não que 'imports' sejam atualizados conforme arquivos são trocados de diretorios
+- files.insertFinalNewLine: Insere ou não uma linha no final de cada arquivo
+- editor.rules: pode passar um array com valores para poder criar linhas verticais no editor
+- editor.renderLineHighLight: "gutter": identifica com uma sombra qual linha você está trabalhando no código no momento
+- breadcrumbs.enabled: mostra ou não na parte superior toda a estrutura de pastas relacionada aquele arquivo que está aberto no momento
 
 ### Extensões sempre utilizadas
 
