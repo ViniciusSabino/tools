@@ -33,3 +33,9 @@ git commit --amend -m "nova mensagem".
 ```
  git reflog
 ```
+
+**Alterar a URL do repositório remoto relacionado**
+
+```
+git remote set-url origin {url_do_repositorio}
+```
