@@ -33,3 +33,10 @@ git commit --amend -m "nova mensagem".
 ```
  git reflog
 ```
+
+**Voltar um commit ou um número especifico de commits voltando com as atividades ao stage**
+
+```
+git reset HEAD~1 --soft
+
+```

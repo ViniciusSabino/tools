@@ -1,0 +1,53 @@
+{
+  // Define o tema do VSCode
+  "workbench.colorTheme": "CodeSandbox",
+  // Configura tamanho e família da fonte
+  "editor.fontSize": 13,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  //Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+  "editor.rulers": [80, 120],
+  // Força que o EsLint realiza o auto fix no projeto
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    {
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "javascriptreact",
+      "autoFix": true
+    },
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typesriptreact",
+      "autoFix": true
+    }
+  ],
+  // Aplica um sinal vertical na esquerda da linha selecionada
+  "editor.renderLineHighlight": "gutter",
+  // Configurações do Terminal integrado ao VsCode
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "terminal.integrated.fontSize": 13,
+  // Outras Configurações
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "explorer.confirmDragAndDrop": false,
+  "files.insertFinalNewline": true,
+  "search.showLineNumbers": true,
+  "typescript.validate.enable": false,
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": false,
+  "editor.tabSize": 2,
+  "workbench.iconTheme": "material-icon-theme",
+  "window.zoomLevel": 0,
+  "editor.formatOnSave": true
+}
