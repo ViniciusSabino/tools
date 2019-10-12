@@ -37,6 +37,12 @@ git commit --amend -m "nova mensagem".
 **Voltar um commit ou um número especifico de commits voltando com as atividades ao stage**
 
 ```
-git reset HEAD~1 --soft
+git reset HEAD~1 --
+```
+
+**Alterar a URL do repositório remoto relacionado**
+
+```
+git remote set-url origin {url_do_repositorio}
 
 ```
