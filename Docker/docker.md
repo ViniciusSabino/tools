@@ -8,6 +8,8 @@ docker build -t [IMAGE_NAME]:[IMAGE_TAG] -f [DOCKERFILE_NAME] .
 
 **Executando o mongodb localmente utilizando uma imagem oficial do mongodb**
 
+**MONGODB**
+
 ```
 docker run --name mongoname -p 27017:27017 -d -t mongo
 ```
@@ -18,3 +20,9 @@ para se conectar nesse mongo
 -d : Irá executar o container em modo background
 
 -t : para especificar o nome da imagem que será utilizada (no exemplo a imagem é 'mongo')
+
+**Removendo imagens desnecessárias para uso **
+
+```
+docker image prune
+```
